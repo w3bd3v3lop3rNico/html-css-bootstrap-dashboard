@@ -3,6 +3,7 @@
     --dark-blue: #051E34;
     --dark-gray: #E5E5E5;
     --light-gray: #F7F7F7;
+    --light: #ffffff;
 }
 
 /* app */
@@ -16,24 +17,13 @@
 /* toolbar */
 
 .app-toolbar {
-    height: 70px;
-    flex-shrink: 0;
+    height: auto;
+    flex-shrink: 0; 
 }
 
 .mobile-logo {
     aspect-ratio: 1;
     width: 45px;
-}
-
-.toolbar-search {
-    background-color: var(--dark-gray);
-    
-
-}
-
-.toolbar-search i {
-    display: block;
-    height: 100%;
 }
 
 /* app body */
@@ -48,6 +38,13 @@
 .sidebar {
     min-width: 70px;
     flex-shrink: 0;
+    background-color: var(--dark-blue);
+    color: var(--light);
+    background-image: url(/img/sidebar-bg.png);
+}
+
+.sidebar i{
+    font-size: 20px;
 }
 
 /* main content */
@@ -81,19 +78,19 @@
     padding: 10px;
 }
 
-.debug .app-toolbar {
+/* .debug .app-toolbar {
     border: 2px solid red;
-    /* padding: 10px; */
-}
+    /* padding: 10px; 
+} */
 
-.debug .app-body {
+/* .debug .app-body {
     border: 2px solid blue;
     padding: 10px;
-}
+} */
 
-.debug .sidebar {
+/* .debug .sidebar {
     border: 2px solid green;
-}
+} */
 
 .debug .main-content {
     border: 2px solid green;
