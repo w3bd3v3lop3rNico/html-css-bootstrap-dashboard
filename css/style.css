@@ -19,12 +19,32 @@
 
 /* debug */
 
+.debug #app {
+    padding: 10px;
+    height: 100vh;
+}
+
 .debug .app-toolbar {
     height: 100px;
     border: 2px solid red;
+    padding: 10px;
 }
 
 .debug .app-body {
-    height: 100vh;
+    height: 100%;
     border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+}
+
+.debug .sidebar {
+    height: 100%;
+    width: 50px;
+    border: 2px solid green;
+}
+
+.debug .main-content {
+    height: 100%;
+    flex-grow: 1;
+    border: 2px solid green;
 }
