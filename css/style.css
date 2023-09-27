@@ -13,6 +13,11 @@
     flex-shrink: 0;
 }
 
+.mobile-logo {
+    aspect-ratio: 1;
+    width: 45px;
+}
+
 /* app body */
 
 .app-body {
@@ -36,19 +41,21 @@
 
 /* media query */
 
-/* @media (min-width: 576px) { ... }
+/* @media (min-width: 576px) { ... } */
 
 
-@media (min-width: 768px) { ... }
+/* @media (min-width: 768px) { ... } */
 
 
-@media (min-width: 992px) { ... }
+/* @media (min-width: 992px) {
+
+} */
 
 
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 1200px) { ... } */
 
 
-@media (min-width: 1400px) { ... } */
+/* @media (min-width: 1400px) { ... } */
 
 /* debug */
 
