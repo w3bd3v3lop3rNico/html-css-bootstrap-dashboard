@@ -1,3 +1,10 @@
+:root {
+    --blue: #1B72E8;
+    --dark-blue: #051E34;
+    --dark-gray: #E5E5E5;
+    --light-gray: #F7F7F7;
+}
+
 /* app */
 
 #app {
@@ -16,6 +23,17 @@
 .mobile-logo {
     aspect-ratio: 1;
     width: 45px;
+}
+
+.toolbar-search {
+    background-color: var(--dark-gray);
+    
+
+}
+
+.toolbar-search i {
+    display: block;
+    height: 100%;
 }
 
 /* app body */
