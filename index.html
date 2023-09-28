@@ -15,18 +15,23 @@
 
 <body class="debug">
     <div id="app">
-        <header class="app-toolbar py-3">
-            <nav class="d-flex">
+        <!-- app toolbar -->
+            <nav class="app-toolbar py-3 d-flex">
+                <!-- toolbar logo -->
                 <div class="px-3 toolbar-logo d-flex">
                     <img src="./img/logo.svg" class="d-none d-md-block" />
                     <img src="./img/mobile-logo.png" class="mobile-logo d-block d-md-none">
                 </div>
+                <!-- toolbar logo end -->
+                <!-- toolbar searchbar -->
                 <form class="d-flex flex-grow-1 input-group" role="search">
                     <span class="input-group-text border border-end-0 bg-light" id="searchbar">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </span>
                     <input type="search" class="form-control me-2 bg-light border border-scart-0 shadow-none" placeholder="Prova a cercare lezioni di Laravel" arial-label="Search" aria-describedby="searchbar">
                 </form>
+                <!-- toolbar searchbar end -->
+                <!-- toolbar menu -->
                 <div class="px-3 toolbar-menu">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -46,10 +51,13 @@
                         </ul>
                     </div>
                 </div>
+                <!-- toolbar menu end -->
             </nav>
-        </header>
+        <!-- app toolbar end -->
         <main class="app-body">
+            <!-- sidebar -->
             <aside class="sidebar d-flex flex-column justify-content-between py-3 px-2 px-md-4">
+                <!-- sidebar top list -->
                 <div class="d-flex justify-content-center">
                     <ul class="sidebar-list-icons list-unstyled text-center">
                         <li class="mb-2 mb-md-3 d-flex">
@@ -66,15 +74,22 @@
                         </li>
                     </ul>
                 </div>
+                <!-- sidebar top list end -->
+                <!-- sidebar bottom item -->
                 <div class="d-flex justify-content-center">
                     <div class="text-center me-md-3"> <i class="fa-solid fa-gear"></i></div>
                     <div class="d-none d-md-block">Admin</div>
                 </div>
+                <!-- sidebar bottom item end -->
             </aside>
+            <!-- sidebar end -->
+            <!-- main content -->
             <section class="main-content">
+                <!-- main header -->
                 <div class="main-header ">
                     <div class="container-fluid">
                         <div class="row py-4 grid gap-0 row-gap-3">
+                            <!-- nuovo studente -->
                             <div class="col-12 col-md-4 col-lg-2 order-md-last">
                                 <div class="d-flex align-items-center">
                                     <h4 class="me-4">Nuovo Studente</h4>
@@ -82,6 +97,8 @@
                                     <i class="fa-solid fa-plus"></i></button>
                                 </div>
                             </div>
+                            <!-- nuovo studente end -->
+                            <!-- piano blaze boolean -->
                             <div class="col-12 col-md-4 col-lg-6">
                                 <div class="d-flex align-items-center">
                                     <h3 class="me-2">Boolean</h3>
@@ -96,6 +113,7 @@
                                     <li>
                                         <i class="fa-solid fa-angles-right"></i>
                                     </li>
+                                    <!-- badge responsive -->
                                     <li class="bg-opacity-25">
                                         <span class="badge rounded-pill text-bg-dark d-lg-none"><i class="fa-solid fa-plus"></i></span>
                                     </li>
@@ -108,20 +126,24 @@
                                     <li class="bg-opacity-25 d-none d-lg-block">
                                         <span class="badge rounded-pill text-bg-dark">Secondary</span>
                                     </li>
+                                    <!-- badge responsive end -->
                                 </ul>
                             </div>
+                            <!-- piano blaze boolean end -->
+                            <!-- numero visite -->
                             <div class="col-12 col-md-4 col-lg-4">
                                 <div>
                                     <p>Studenti negli ultimi 30 minuti</p>
                                     <p class="fs-2">125</p>
                                 </div>
-                                
-
                             </div>
+                            <!--  numero visite end -->
                         </div>
                     </div>
                 </div>
+                <!-- main header end -->
             </section>
+            <!-- main content end -->
         </main>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
