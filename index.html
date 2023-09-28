@@ -35,13 +35,13 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Profilo</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Fatturazione</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -73,23 +73,23 @@
             </aside>
             <section class="main-content">
                 <div class="main-header ">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <h4>Nuovo Studente</h4>
+                    <div class="container-fluid">
+                        <div class="row py-4 grid gap-0 row-gap-3">
+                            <div class="col-12 col-md-4 col-lg-2 order-md-last">
+                                <div class="d-flex align-items-center">
+                                    <h4 class="me-4">Nuovo Studente</h4>
                                     <button type="button" class="btn    btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                     <i class="fa-solid fa-plus"></i></button>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <h3>Boolean</h3>
+                            <div class="col-12 col-md-4 col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <h3 class="me-2">Boolean</h3>
                                     <div class="bg-opacity-25">
                                         <span class="badge rounded-pill text-bg-dark">Piano blaze</span>
                                     </div>
                                 </div>
-                                <ul class="list-unstyled d-flex">
+                                <ul class="list-unstyled d-flex align-items-center">
                                     <li class="bg-opacity-25">
                                         <span class="badge rounded-pill text-bg-dark">3 apps</span>
                                     </li>
@@ -110,12 +110,18 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-12"></div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div>
+                                    <p>Studenti negli ultimi 30 minuti</p>
+                                    <p class="fs-2">125</p>
+                                </div>
+                                
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-
         </main>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">

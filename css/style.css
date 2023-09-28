@@ -26,6 +26,12 @@
     width: 45px;
 }
 
+#app,
+.app.app-toolbar,
+.sidebar {
+    overflow: auto;
+}
+
 /* app body */
 
 .app-body {
@@ -48,6 +54,10 @@
 }
 
 /* main content */
+
+.main-content {
+    overflow: hidden;
+}
 
 /* main header */
 
@@ -103,7 +113,7 @@
     border: 2px solid green;
 }
 
-.debug .container-fluid div {
+/* .debug .container-fluid div {
     border: 2px solid rgb(112, 112, 7);
     height: 40px;
-}
+} */
