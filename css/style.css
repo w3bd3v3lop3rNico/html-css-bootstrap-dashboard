@@ -49,6 +49,13 @@
 
 /* main content */
 
+/* main header */
+
+.main-header {
+    background-color: var(--blue);
+    color: var(--light);
+}
+
 .main-content {
     flex-grow: 1;
 }

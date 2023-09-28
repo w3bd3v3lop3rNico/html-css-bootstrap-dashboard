@@ -34,46 +34,110 @@
                             Dropdown button
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <main class="app-body">
-            <aside class="sidebar d-flex flex-column justify-content-between py-5 px-2 px-md-5">
+            <aside class="sidebar d-flex flex-column justify-content-between py-3 px-2 px-md-4">
                 <div class="d-flex justify-content-center">
-                    <ul class="sidebar-list-icons list-unstyled text-center me-3 ">
-                        <li class="mb-2 mb-md-3"><i class="fa-solid fa-house "></i> <div></div></li>
-                        <li class="mb-2 mb-md-3"><i class="fa-solid fa-chart-simple"></i><div></div></li>
-                        <li class="mb-2 mb-md-3"><i class="fa-solid fa-signal"></i><div></div></li>
-                    </ul>
-                    <ul class="sidebar-list-text list-unstyled text-start d-none d-md-block">
-                        <li class="mb-2 mb-md-3">Home</li>
-                        <li class="mb-2 mb-md-3">Stats</li>
-                        <li class="mb-2 mb-md-3">Signal</li>
+                    <ul class="sidebar-list-icons list-unstyled text-center">
+                        <li class="mb-2 mb-md-3 d-flex">
+                            <i class="fa-solid fa-house"></i> 
+                            <div class="d-none d-md-block">Home</div>
+                        </li>
+                        <li class="mb-2 mb-md-3 d-flex">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <div class="d-none d-md-block">Stats</div>
+                        </li>
+                        <li class="mb-2 mb-md-3 d-flex">
+                            <i class="fa-solid fa-signal"></i>
+                            <div class="d-none d-md-block">Signal</div>
+                        </li>
                     </ul>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <div class="text-center me-3"> <i class="fa-solid fa-gear"></i></div>
+                    <div class="text-center me-md-3"> <i class="fa-solid fa-gear"></i></div>
                     <div class="d-none d-md-block">Admin</div>
                 </div>
             </aside>
             <section class="main-content">
-                <div class="main-header container">
-                    <div class="row">
-                        <div class="col-12"></div>
-                        <div class="col-12"></div>
-                        <div class="col-12"></div>
+                <div class="main-header ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <h4>Nuovo Studente</h4>
+                                    <button type="button" class="btn    btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <h3>Boolean</h3>
+                                    <div class="bg-opacity-25">
+                                        <span class="badge rounded-pill text-bg-dark">Piano blaze</span>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled d-flex">
+                                    <li class="bg-opacity-25">
+                                        <span class="badge rounded-pill text-bg-dark">3 apps</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angles-right"></i>
+                                    </li>
+                                    <li class="bg-opacity-25">
+                                        <span class="badge rounded-pill text-bg-dark d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                                    </li>
+                                    <li class="bg-opacity-25 d-none d-lg-block">
+                                        <span class="badge rounded-pill text-bg-dark">Secondary</span>
+                                    </li>
+                                    <li class="bg-opacity-25 d-none d-lg-block">
+                                        <span class="badge rounded-pill text-bg-dark">Secondary</span>
+                                    </li>
+                                    <li class="bg-opacity-25 d-none d-lg-block">
+                                        <span class="badge rounded-pill text-bg-dark">Secondary</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12"></div>
+                        </div>
                     </div>
                 </div>
-                
-
             </section>
 
         </main>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle"           type="button" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
     </div>
