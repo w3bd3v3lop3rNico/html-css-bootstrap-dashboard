@@ -35,6 +35,13 @@
     overflow: hidden;
 }
 
+/* Offcanvas */
+
+.offcanvas.subscription-body {
+    width: 100%;
+    transform: translateX(100%);
+}
+
 /* app body */
 
 .app-body {
@@ -98,11 +105,12 @@
     color: #1969ff;
 }
 
+.ms_accordion-button-color:not(.collapsed)::after {
+    color: #1969ff;
+}
+
 /* grafic-card */
 
-/* .grafic-card img {
-    max-width: 430px;
-} */
 
 /* media query */
 
