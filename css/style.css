@@ -84,6 +84,10 @@
 
 }
 
+.classes-table .item-start  {
+    text-align: left;
+}
+
 /* media query */
 
 /* @media (min-width: 576px) { ... } */
