@@ -30,8 +30,9 @@
 
 #app,
 .app.app-toolbar,
+.app-body,
 .sidebar {
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* app body */
@@ -58,7 +59,7 @@
 /* main content */
 
 .main-content {
-    overflow: hidden;
+    overflow:auto;
 }
 
 /* main header */
